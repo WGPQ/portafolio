@@ -24,9 +24,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/fonts/font-awesome/css/font-awesome.css",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/modernizr.custom.js",
+              "src/assets/js/jquery.1.11.1.js",
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portafolio-wp"
+    }
+  },
+  "defaultProject": "portafolio-wp",
+  "cli": {
+    "analytics": "42dc4b1b-1a20-4bfb-b21b-472df069b6bf"
+  }
 }
